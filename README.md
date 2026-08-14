@@ -124,3 +124,16 @@ The estimated annual premium combines baseline risk with predicted claim probabi
 ```text
 Annual Premium = $500 (Base) + (Claim Probability × $1,200) + Vehicle Surcharge
 ```
+
+---
+
+## 💡 Practical Calculation Examples
+
+### Scenario : High-Risk Profile
+* **Driver:** 20 years old, 2 years driving experience, 18,000 annual miles, 1 accident, 2 speeding tickets.
+* **Vehicle & Risk:** Sports Car, Predicted Claim Probability = **75%**
+
+```text
+1. Violation Rate   = (2 + 1) / (2 + 1)                 = 1.0 violations/yr
+2. Mileage Ratio    = 18,000 / max(20 - 17, 1)          = 6,000 miles/yr
+3. Dynamic Premium  = $500 + (0.75 × $1,200) + $350     = $1,750 / year
