@@ -113,4 +113,4 @@ pytest -v
 
 The estimated annual premium combines baseline risk with predicted claim probabilities:
 
-$$\text{Premium} = \text{Base Price (\$500)} + (\text{Claim Probability} \times \$1200) + \text{Vehicle Category Surcharge}$$
+$$\text{Premium} = \text{Base Price } (\$500) + (\text{Claim Probability} \times \$1200) + \text{Vehicle Category Surcharge}$$
