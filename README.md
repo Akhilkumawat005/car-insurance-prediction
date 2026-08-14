@@ -99,4 +99,17 @@ pytest -v
 
 ---
 
-📊 Methodology & Business Logic1. Feature EngineeringViolation Rate: Ratio of total past violations and accidents relative to driving experience:$$\text{Violation Rate} = \frac{\text{Speeding Violations} + \text{Past Accidents}}{\text{Driving Experience} + 1}$$Mileage per Adult Year: Annual mileage normalized against driving-eligible age:$$\text{Mileage Ratio} = \frac{\text{Annual Mileage}}{\max(\text{Age} - 17, 1)}$$2. Dynamic Premium Pricing FormulaThe estimated annual premium combines baseline risk with predicted claim probabilities:$$\text{Premium} = \text{Base Price } (\$500) + (\text{Claim Probability} \times \$1200) + \text{Vehicle Category Surcharge}$$
+📊 Methodology & Business Logic
+1. Feature Engineering
+Violation Rate: Ratio of total past violations and accidents relative to driving experience:
+
+Violation Rate = (Speeding Violations + Past Accidents) / (Driving Experience + 1)
+
+Mileage per Adult Year: Annual mileage normalized against driving-eligible age:
+
+Mileage Ratio = Annual Mileage / max(Age - 17, 1)
+
+2. Dynamic Premium Pricing Formula
+The estimated annual premium combines baseline risk with predicted claim probabilities:
+
+Annual Premium = $500 (Base) + (Claim Probability × $1,200) + Vehicle Surcharge
