@@ -2,7 +2,11 @@
 
 An end-to-end Machine Learning pipeline and interactive web application that predicts the likelihood of policyholder insurance claims and estimates risk-adjusted policy premiums in real time.
 
----
+## 🌐 Live Web Application
+
+The interactive web dashboard is deployed and live on **Streamlit Community Cloud**:
+
+Live Application: https://car-insurance-prediction-jpp3fnw7j2acxexo7qm46r.streamlit.app/
 
 ## 📌 Features
 
